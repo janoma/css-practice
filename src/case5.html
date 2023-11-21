@@ -27,6 +27,11 @@
         margin: 2em auto;
       }
 
+      .hero {
+        min-height: 200px;
+        background: linear-gradient(#c6007e, #0095c8 80%);
+      }
+
       .columns {
         display: flex;
         justify-content: space-between;
@@ -35,8 +40,8 @@
 
       .card {
         border-radius: 1rem;
-        background-color: slategray;
-        padding: 1rem;
+        background-color: #0095c8;
+        padding: 2rem;
         margin-block-end: 1rem;
         flex: 1;
       }
@@ -46,7 +51,7 @@
   <body>
     <main>
       <div class="container">
-        <div class="card"><h1>This is the title</h1></div>
+        <div class="card hero"><h1>This is the title</h1></div>
         <div class="columns">
           <div class="card">
             <h2>A subsection</h2>
